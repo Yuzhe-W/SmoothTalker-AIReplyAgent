@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SmoothTalker</title>
+    <style>
+      body{font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;max-width: 720px;margin: 24px auto;padding: 0 16px}
+      header{margin-bottom: 16px}
+      .row{display:flex;gap:8px;align-items:center;margin:8px 0}
+      textarea{width:100%;min-height:90px}
+      select,button{padding:8px}
+      .status{margin-top:8px;color:#555}
+      .options{margin-top:12px}
+      .option{border:1px solid #ddd;border-radius:8px;padding:10px;margin:8px 0;white-space:pre-line}
+      .option-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+      .copy-small{padding:6px 10px;font-size:12px}
+      small{color:#666}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>SmoothTalker</h2>
+      <small>No emojis. Privacy-first. Exactly three options.</small>
+    </header>
+    <div>
+      <div class="row">
+        <label for="role">Role</label>
+        <select id="role">
+          <option value="crush">crush</option>
+          <option value="colleague">colleague</option>
+        </select>
+      </div>
+      <div class="row">
+        <textarea id="incoming" placeholder="Paste incoming message..."></textarea>
+      </div>
+      <div class="row">
+        <button id="go">Generate</button>
+      </div>
+      <div class="status" id="status">Ready.</div>
+      <div class="options" id="options"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
