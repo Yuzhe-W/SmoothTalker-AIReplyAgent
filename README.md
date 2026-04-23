@@ -33,18 +33,6 @@ SmoothTalker is a role-aware AI reply assistant built around a Flutter desktop c
     <td align="center">Crush role</td>
     <td align="center">Colleague role</td>
   </tr>
-  <tr>
-    <td align="center">
-      <img src="UI%20Designs/Crush_2.png" alt="Crush reply options" width="360" />
-    </td>
-    <td align="center">
-      <img src="UI%20Designs/Colleague_2.png" alt="Colleague reply options" width="360" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">Crush reply options</td>
-    <td align="center">Colleague reply options</td>
-  </tr>
 </table>
 
 ## How it works
